@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script lang="Javascript">
+        var a,b,t,y,w;
+        a=parseFloat(prompt('Enter a',''));
+        b=parseFloat(prompt('Enter b',''));
+        t=parseFloat(prompt('Enter t',''));
+        y=Math.exp(b*t)*Math.sin(a*t+b)-Math.sqrt(Math.abs(b*t+a));
+        w=(b*Math.pow( Math.sin((a*Math.pow(t,2)*Math.cos(2*t))-1),2)*Math.sqrt(3*Math.pow(y,2)));
+        alert("y="+y);
+        alert("w="+w);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
